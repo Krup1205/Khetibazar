@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5DC"
+    tools:context=".sell_form">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageView"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="125dp"
+        android:src="@drawable/ic_launcher_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="127dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="127dp"
+        android:text="Product image"
+        android:textColor="@color/btnclr"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/circleImageView" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="37dp"
+        android:background="@drawable/edit_text"
+        android:drawablePadding="8dp"
+        android:ems="10"
+        android:hint="Product name"
+        android:inputType="textPersonName"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <EditText
+        android:id="@+id/adn"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="37dp"
+        android:background="@drawable/edit_text"
+        android:drawablePadding="8dp"
+        android:ems="10"
+        android:hint="Selling price"
+        android:inputType="number"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/address" />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="37dp"
+        android:background="@drawable/edit_text"
+        android:drawablePadding="8dp"
+        android:ems="10"
+        android:hint="Product quantity"
+        android:inputType="numberDecimal"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name" />
+
+    <EditText
+        android:id="@+id/cono"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="37dp"
+        android:background="@drawable/edit_text"
+        android:drawablePadding="8dp"
+        android:ems="10"
+        android:hint="Market price"
+        android:inputType="number"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adn" />
+
+    <EditText
+        android:id="@+id/upi"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="37dp"
+        android:background="@drawable/edit_text"
+        android:drawablePadding="8dp"
+        android:ems="10"
+        android:hint="Address"
+        android:inputType="text|textPostalAddress"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cono" />
+
+    <Button
+        android:id="@+id/sell"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="112dp"
+        android:backgroundTint="@color/btnclr"
+        android:text="Submit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/upi" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

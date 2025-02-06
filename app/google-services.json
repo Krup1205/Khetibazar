@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "916808577963",
+    "project_id": "farmer-c50e6",
+    "storage_bucket": "farmer-c50e6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:916808577963:android:20bae624057fde2aa2d8ee",
+        "android_client_info": {
+          "package_name": "com.example.khetibazar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7wyaYdWDB8J_zBAshQL2pMf64bXQfrts"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
