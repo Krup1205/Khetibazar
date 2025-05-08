@@ -1,1 +1,1 @@
-This project is made by my team in a hackathon at parul university.The idea is about to connect the farmers to the direct market place.To see this app export the folder and open in androis studio.
+This project is made by my team during a hackathon at Parul University. The idea is to connect farmers directly to the marketplace through an app called **Kheti Bazaar**, helping them earn more by removing middlemen. To view or test the app, export the project folder and open it in Android Studio.
