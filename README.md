@@ -24,7 +24,7 @@
 
 1. *Clone the Repository*:
    ```bash
-   git clone https://github.com/your-username/kheti-bazaar.git
+   git clone https://github.com/Krup1205/Khetibazar.git
    Open the project in Android Studio.
 2.Connect Firebase to your project:
 3.Go to Tools > Firebase
